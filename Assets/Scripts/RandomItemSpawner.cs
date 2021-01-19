@@ -13,8 +13,7 @@ public class RandomItemSpawner : MonoBehaviour
     private Vector2 _position;
 
     void Update()
-    {
-        
+    {        
         _position = new Vector2(Random.Range(-8, 6), Random.Range(-3, 5));
         if (_counter != _quantitySpawnPoints)
         {
